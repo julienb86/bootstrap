@@ -43,6 +43,9 @@
                 <div  class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid" alt="">
                 </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                  <a type="button" class="btn btn-warning" href="#reservation">Reserve a table</a>
+                </div>
             </div>
         </div>
     </header>
@@ -56,7 +59,7 @@
                 <div class="media">
                     <img src="img/uthappizza.png" alt="Uthappizza" class="d-flex mr-3 img-thumbnail align-self-center">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary"</span>4$99</h2>
+                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger ml-2">HOT</span><span class="badge badge-pill badge-secondary ml-2"</span>$4.99</h2>
                         <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
 
@@ -69,11 +72,11 @@
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm order-sm-first col-md">
+            <div class="col col-sm col-md">
                 <div class="media">
-                    <img src="img/buffet.png" alt="buffet" class="d-flex mr-3 img-thumbnail align-self-center">
+                    <img src="img/buffet.png" alt="buffet" class="d-flex mr-3 order-sm-last img-thumbnail align-self-center">
                     <div class="media-body">
-                        <h2 class="mt-0">Weekend Grand Buffet</h2>
+                        <h2 class="mt-0">Weekend Grand Buffet<span class="badge badge-danger ml-2"> NEW</span></h2>
                         <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                     </div>
                 </div>
@@ -95,6 +98,35 @@
                 </div>
             </div>
         </div>
+        <div class="col-12 col-sm-8 offset-sm-2 justify-content-center row-content">
+          <div class="card" id="reservation">
+            <div class="card-header bg-warning">
+              <h3>Reserve a Table</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <p class="col-12 offset-sm-1 col-sm-2">Number of guests</p>
+                <div class="col-12 col-sm-9 person">
+                  <input type="radio" name="person" value="1"><label for="radio">1</label>
+                  <input type="radio" name="person" value="1"><label for="radio">2</label>
+                  <input type="radio" name="person" value="1"><label for="radio">3</label>
+                  <input type="radio" name="person" value="1"><label for="radio">4</label>
+                  <input type="radio" name="person" value="1"><label for="radio">5</label>
+                  <input type="radio" name="person" value="1"><label for="radio">6</label>
+                </div>
+              </div>
+              <div class="row">
+                <p class="col-12 offset-sm-1 col-sm-2">Date and Time</p>
+                <div class="">
+                  <input class="col-12 col-sm-3" type="text" name="date" placeholder="date">
+                  <input class="col-12 col-sm-3" type="text" name="time" placeholder="time">
+                </div>
+              </div>
+              <button class="offset-sm-1 btn btn-primary mt-3 mt-sm-2" type="button" name="button">Reserve</button>
+            </div>
+          </div>
+        </div>
+
     </div>
 
     <footer class="footer">
