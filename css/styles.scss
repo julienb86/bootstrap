@@ -1,0 +1,92 @@
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale:#D1C4E9;
+
+//height variables
+$carousel-item-height:300px;
+
+@mixin zero-margin ($pad-up-dn:0px, $pad-left-right:0px){
+  margin: 0px auto;
+  padding: $pad-up-dn $pad-left-right;
+}
+
+@mixin row-header{
+  @include zero-margin(0px, 0px);
+}
+
+@mixin row.content{
+  @include zero-margin(50px, 0);
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+@mixin footer{
+  background-color: $background-pale;
+  @include zero-margin(20px, 0);
+}
+
+@mixin jumbotron{
+  @include zero-margin(70px, 30px);
+  background: $background-light;
+  color: FloralWhite;
+}
+
+address {
+  font-size: 80%;
+  margin: 0;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 50px 0 0 0;
+  z-index: 0;
+}
+
+.navbar-dark {
+  background-color: $background-dark;
+}
+
+.tab-content {
+  border-left: 1px solid $lt-gray;
+  border-right: 1px solid $lt-gray;
+  border-bottom: 1px solid $lt-gray;
+  padding: 10px;
+}
+
+.carousel {
+  background: $background-dark;
+}
+
+.carousel .carousel-item {
+  height: 300px;
+}
+
+.carousel {
+  background: $background-dark;
+  .carousel-item {
+    $carousel-item-height:300px;
+      img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+    }
+  }
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.person {
+  color: black;
+}
+.modal {
+  color: black;
+}
+.person input {
+  margin: 5px;
+}

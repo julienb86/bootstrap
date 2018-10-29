@@ -9,14 +9,14 @@
   min-height: 400px;
 }
 .footer {
-  background-color: #d1c4e9;
+  background-color: #D1C4E9;
   margin: 0px auto;
   padding: 20px 0;
 }
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575cd;
+  background: #9575CD;
   color: FloralWhite;
 }
 address {
@@ -29,16 +29,16 @@ body {
   z-index: 0;
 }
 .navbar-dark {
-  background-color: #512da8;
+  background-color: #512DA8;
 }
 .tab-content {
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 10px;
 }
 .carousel {
-  background: #512da8;
+  background: #512DA8;
 }
 .carousel .carousel-item {
   height: 300px;
@@ -62,4 +62,23 @@ body {
 }
 .person input {
   margin: 5px;
+}
+.modal-content .modal-header {
+  background-color: #512DA8;
+  color: FloralWhite;
+}
+.modal-content .modal-title {
+  color: FloralWhite;
+}
+.modal-content #close-login-button {
+  color: FloralWhite;
+}
+.modal-content .modal-body {
+  background-color: #9575CD;
+}
+.modal-content .modal-body #checkbox {
+  color: FloralWhite;
+}
+.modal-content .modal-footer {
+  background-color: #9575CD;
 }
