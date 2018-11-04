@@ -1,7 +1,7 @@
 $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
-$background-pale:#D1C4E9;
+$background-pale: #D1C4E9;
 
 //height variables
 $carousel-item-height:300px;
@@ -11,22 +11,22 @@ $carousel-item-height:300px;
   padding: $pad-up-dn $pad-left-right;
 }
 
-@mixin row-header{
+.row-header{
   @include zero-margin(0px, 0px);
 }
 
-@mixin row.content{
-  @include zero-margin(50px, 0);
+.row-content{
+  @include zero-margin(50px, 0px);
   border-bottom: 1px ridge;
   min-height: 400px;
 }
 
-@mixin footer{
+.footer{
   background-color: $background-pale;
   @include zero-margin(20px, 0);
 }
 
-@mixin jumbotron{
+.jumbotron{
   @include zero-margin(70px, 30px);
   background: $background-light;
   color: FloralWhite;
@@ -54,13 +54,6 @@ body {
   padding: 10px;
 }
 
-.carousel {
-  background: $background-dark;
-}
-
-.carousel .carousel-item {
-  height: 300px;
-}
 
 .carousel {
   background: $background-dark;
